@@ -1,4 +1,3 @@
-// Dataset produk langsung ditulis di dalam file
 const products = [
   { id: 1, title: "Laptop Pro", price: 1200, rating: 4.8, stock: 5, category: "laptops" },
   { id: 2, title: "Smartphone X", price: 800, rating: 4.2, stock: 15, category: "phones" },
