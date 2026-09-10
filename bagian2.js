@@ -1,4 +1,3 @@
-// Dataset simpel
 const products = [
   { id: 1, title: "Laptop", price: 1000, stock: 5 },
   { id: 2, title: "Phone", price: 800, stock: 15 },
