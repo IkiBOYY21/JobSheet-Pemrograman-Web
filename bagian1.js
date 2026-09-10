@@ -4,7 +4,8 @@ function calculateDiscountedPrice(price, discountPercent) {
   return price - (price * discountPercent) / 100;
 }
 
-// Latihan 1.2 — Menaikkan Tingkat Kesulitan (Apply Discounts ke Array)
+//Latihan 1.2 — Menaikkan Tingkat Kesulitan (Apply Discounts ke Array)
+
 const cart = [
   { title: "Laptop", price: 1000, discountPercent: 10 },
   { title: "Mouse", price: 20, discountPercent: 5 },
@@ -16,8 +17,6 @@ function applyDiscounts(cartItems) {
 
   for (const item of cartItems) {
     const finalPrice = calculateDiscountedPrice(item.price, item.discountPercent);
-
-    // Push object hasil ke array result
     result.push({
       title: item.title,
       originalPrice: item.price,
