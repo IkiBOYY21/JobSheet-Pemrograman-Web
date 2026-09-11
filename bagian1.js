@@ -17,6 +17,7 @@ function applyDiscounts(cartItems) {
 
   for (const item of cartItems) {
     const finalPrice = calculateDiscountedPrice(item.price, item.discountPercent);
+
     result.push({
       title: item.title,
       originalPrice: item.price,

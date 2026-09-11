@@ -4,6 +4,7 @@ const products = [
   { id: 3, title: "Mouse", price: 20, stock: 3 }
 ];
 
+
 console.log("=== BAGIAN 2 ===");
 
 // 2.1 Cari produk berdasar ID
