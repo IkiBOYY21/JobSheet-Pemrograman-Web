@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Product Explorer</title>
+</head>
+<body>
+  <!-- 19.1 Hubungkan input search, dropdown category, dan dropdown sort -->
+  <input type="text" id="search-input" placeholder="Cari produk...">
+  <select id="category-select">
+    <option value="all">Semua Kategori</option>
+    <option value="beauty">Beauty</option>
+    <option value="fragrances">Fragrances</option>
+    <option value="furniture">Furniture</option>
+  </select>
+  <select id="sort-select">
+    <option value="default">Urutan Default</option>
+    <option value="price-asc">Harga Termurah</option>
+    <option value="price-desc">Harga Termahal</option>
+  </select>
+
+  <!-- 25.1 Statistics -->
+  <div id="statistics" style="margin: 10px 0; font-weight: bold;"></div>
+
+  <!-- 17.1 render produk dummy -->
+  <div id="product-list"></div>
+
+  <!-- 21 ES Modules (Tambahkan atribut module) -->
+  <script type="module" src="main.js"></script>
+</body>
+</html>
